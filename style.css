@@ -19,13 +19,9 @@ body {
     height: 100px;
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     align-items: center;
-}
-
-.header-logo {
-
 }
 
 .header-logo img {
@@ -49,20 +45,20 @@ a {
 .headline-content {
     display: flex;
     justify-content: space-between;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-bottom: 100px;
 }
 
 .hc-text {
-    
+    width: 600px;
 }
 
 .hero-main-text {
     font-size: 48px;
     color: #f9faf8;
     font-weight: bold;
-    width: 500px;
+    width: 400px;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -70,7 +66,7 @@ a {
 .hero-sub-text {
     font-size: 18px;
     color: #e5e7eb;
-    width: 700px;
+    width: 600px;
     margin: 0;
     margin-bottom: 20px;
 }
@@ -87,7 +83,7 @@ a {
 }
 
 .headline-img img {
-    width: 600px;
+    width: 500px;
     height: auto;
 }
 
@@ -95,18 +91,122 @@ a {
 
 .main-content {
     height: 500px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: rgb(206, 201, 195);
 }
+
+.mc-heading {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    align-self: center;
+    margin-top: 10px;
+}
+
+.mc-content {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+
+.mcc img {
+    width: 200px;
+    height: auto;
+    border-radius: 15px; 
+    border: 4px solid rgb(43, 185, 228);
+}
+
+/* added another attribute to delhi image because the size was a little smaller */
+
+.mcc-del img {
+    width: 208px;
+    height: auto;
+    border-radius: 15px; 
+    border: 4px solid rgb(43, 185, 228);
+}
+
+
+.text {
+    width: 200px;
+    font-size: 18px;
+    text-align: center;
+    
+}
+
+/* section 2 finishes here */
 
 .quote {
-    height: 400px;
+    height: 350px;
     background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
 }
+
+.q-content {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+    width: 1000px; 
+}
+
+.q-author {
+    align-self: flex-end;
+    margin-right: 500px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+/* section 3 finishes here */
 
 .call-to-action {
     height: 300px;
+    background: rgb(245, 232, 232);
+    color: whitesmoke;
 }
+
+.cta-box {
+    height: 120px;
+    background: #5282fc;
+    margin: 90px 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+
+.ctac-heading {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+
+.sign-up {
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke;
+    background: #5282fc;
+    width: 100px;
+    height: 30px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+}
+
+/* section 4 finishes here */
 
 .footer {
     height: 100px;
+    width: auto;
+    background: #1f2937;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
